@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+	<head>
+	    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+	    <link rel="stylesheet" type="text/css" href="portfolio.css">
+	          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="portfolio.js"></script>
+	</head>
+	<body>
+    <div class="container">
+      <nav>
+        <a class="navlink" href="#top">
+					<i class="fas fa-home"></i>
+					<b class="navHome">Home</b>
+				</a>    
+        <a class="navlink" href="#About">
+					<i class="fas fa-user"></i>
+					<b class="navUser">About</b>
+				</a>   
+        <a class="navlink" href="#Skills">
+					<i class="fas fa-code"></i> 
+					<b class="navCode">Skills</b>
+				</a>   
+				<a class="navlink" href="#Projects">
+					<i class="fas fa-laptop"></i> 
+					<b class="navLaptop">Projects</b>
+				</a>   
+        <a class="navlink" href="#Contact">
+					<i class="fas fa-envelope"></i>
+					<b class="navEnvelope">Contact</b>
+				</a>   
+      </nav>
+
+      <section>
+      	<div name ="top" class="home" id="Home">
+      		<p class="hello">Hello! I am</p>
+      		<p class="name">Karen Desiste</p>
+      		<p class="job">Frontend Developer.</p>
+      		<div class="resume"><a href="images/resume.pdf">Get Resume</a></div>
+      		
+      		<a href="#About"><i class="fas fa-chevron-down"></i></a>
+      	</div>
+
+      	<div class="about">
+      		<span id ="About" ></span>
+      		<div class="aboutContainer">
+      			<div class="left"><img src="images/profile.jpeg" alt=""><span></span></div>
+      			<div class="right">Hey there, my name is Karen Desiste and I am a  frontend developer based in New York. I build responsive websites by transforming creative ideas to efficient web applications. I love being part of a field with a constant changing nature that allows me to learn new technologies and skills.
+      				<div id="education">
+      					<h4>Education</h4>
+      					<p>Queens College, City University of New York</p>
+      					<p>B.A. Applied Matematics and Computer Science</p>
+      				</div>
+      			</div>
+      		</div>
+      		<div>
+      			<a href="#Skills"><i class="fas fa-chevron-down"></i></a>
+      		</div>
+      	</div>
+
+      	<div class="skills">
+      		<span id ="Skills" ></span>
+      		<div class="skillsContainer">
+		      	<div class="html"></div>
+		      	<div class="css"></div>
+		      	<div class="javascript"></div>
+		      	<div class="react"></div>
+		      	<div class="node"></div>
+		      	<div class="express"></div>
+		      	<div class="npm"></div>
+		      	<div class="jquery"></div>
+		      	<div class="bootstrap"></div>
+		      	<div class="sass"></div>
+		      	<div class="git"></div>
+		      	<div class="firebase"></div>
+	      	</div>
+      		<a href="#Projects"><i class="fas fa-chevron-down"></i></a>
+      	</div>
+
+      	<div class="projects">
+      		<span id ="Projects" ></span>
+      		<div class="projectsContainer">
+      			<div class="content">
+      				<div class="box"><img src="images/weather.png" alt=""></div>
+      				<p>Weather App</p>
+      				<p id="weather"><a href="https://github.com/Kades94/Weather-App">Repo</a></p>
+      			</div>
+      			<div class="content">
+      			<div class="box"><img src="images/picstagram.png" alt=""></div>
+      				<p>Picstagram App</p>
+      				<p id="picstagram"><a href="https://github.com/Kades94/Picstagram-App">Repo</a></p>
+      			</div>
+      			<div class="content">
+      			<div class="box"><img src="images/todo.png" alt=""></div>
+      				<p>Todo App</p>
+      				<p id="todo"><a href="https://github.com/Kades94/Todo-App">Repo</a></p>
+      			</div>
+      		</div>
+
+      		<div id="projectDown"><a href="#Contact"><i class="fas fa-chevron-down"></i></a></div>
+      	</div>
+
+      	<div id ="Contact" class="contact" >
+    			<h2 class="title">Contact Me</h2>
+    			<div class="contactContainer">
+    				<form action="https://formspree.io/f/mayavelo"method="post" autocomplete="off">
+        			<div class="field">
+            		<label for="name"></label>
+            		<div class="control has-icons-left">
+                	<input type="text" name="name" id="name" class="input" placeholder="Name">
+            		</div>
+        			</div>
+        			<div class="field">
+            		<label for="email" class="label is-size-4 has-text-weight-light"></label>
+            		<div class="control has-icons-left">
+                	<input type="email" name="email" id="email" class="input" placeholder="Email">
+            		</div>
+        			</div>
+        			<div class="field">
+            		<label for="message" class="label is-size-4 has-text-weight-light"></label>
+            		<textarea name="message" id="message" rows="5" class="textarea is-medium" placeholder="Message"></textarea>
+        			</div>
+        			<button type="submit" class="button">Submit</button>
+    				</form>
+    		</div>
+      	</div>
+
+      	<div class="top"><a href="#top"><i class="fas fa-arrow-up"></i></a>Back to top</div>
+  		</section>
+
+      <div class="footer">
+      	<div>
+      		<i class="fas fa-phone-alt"><b class="number">347-614-7497</b></i>
+      	</div>
+      	<div class="footerEmail">
+      		<i class="fas fa-envelope"></i><a href="mailto:karen.desiste@gmail.com"class="email">karen.desiste@gmail.com</a>
+      	</div>
+      	<div>
+      		<a href="https://www.linkedin.com/in/karen-desiste-7a0597123/"><i class="fab fa-linkedin-in"></i></a>
+      		<a href="https://codepen.io/Kades03/"><i class="fab fa-codepen"></i></a>
+      		<a href="https://github.com/Kades94"><i class="fab fa-github-alt"></i></a>
+      		<a href="images/resume.pdf"><i class="fas fa-file"></i></a>
+      	</div>
+      </div>
+
+    </div>
+	</body>
+</html>
