@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 	<head>
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
 	    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	    <link rel="stylesheet" type="text/css" href="index.css">
 	          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -36,8 +37,7 @@
       		<p class="name">Karen Desiste</p>
       		<p class="job">Frontend Developer.</p>
       		<div class="resume"><a href="images/resume.pdf">Get Resume</a></div>
-      		
-      		<a href="#About"><i class="fas fa-chevron-down"></i></a>
+      		<div class ="down"><a href="#About"><i class="fas fa-chevron-down"></i></a></div>
       	</div>
 
       	<div class="about">
@@ -52,7 +52,7 @@
       				</div>
       			</div>
       		</div>
-      		<div>
+      		<div class="down">
       			<a href="#Skills"><i class="fas fa-chevron-down"></i></a>
       		</div>
       	</div>
@@ -73,7 +73,7 @@
 		      	<div class="git"></div>
 		      	<div class="firebase"></div>
 	      	</div>
-      		<a href="#Projects"><i class="fas fa-chevron-down"></i></a>
+      		<div class="down"><a href="#Projects"><i class="fas fa-chevron-down"></i></a></div>
       	</div>
 
       	<div class="projects">
@@ -82,25 +82,31 @@
       			<div class="content">
       				<div class="box"><img src="images/weather.png" alt=""></div>
       				<p>Weather App</p>
-      				<p id="weather"><a href="https://github.com/Kades94/Weather-App">Repo</a></p>
-      				<p><a href="https://github.com/Kades94/Weather-App">Demo</a></p>
+      				<div class="projectLinks">
+      					<p id="weather"><a href="https://github.com/Kades94/Weather-App">Repo</a></p>
+      					<p><a href="https://taupe-daifuku-684630.netlify.app/">Demo</a></p>
+      				</div>
       			</div>
       			<div class="content">
       			<div class="box" id="fix"><img src="images/picstagram.png" alt=""></div>
       				<p>Picstagram App</p>
-      				<p id="picstagram"><a href="https://github.com/Kades94/picstagram">Repo</a></p>
-      				<p><a href="https://github.com/Kades94/Weather-App">Demo</a></p>
+      				<div class="projectLinks">
+      					<p id="picstagram"><a href="https://github.com/Kades94/picstagram">Repo</a></p>
+      					<p><a href="https://dreamy-marshmallow-033d35.netlify.app/">Demo</a></p>
+      				</div>
       			</div>
       			
       			<div class="content">
       			<div class="box"><img src="images/todo.png" alt=""></div>
       				<p>Todo App</p>
-      				<p id="todo"><a href="https://github.com/Kades94/Todo-App">Repo</a></p>
-      				<p ><a href="https://github.com/Kades94/Weather-App">Demo</a></p>
+      				<div class="projectLinks">
+      					<p id="todo"><a href="https://github.com/Kades94/Todo-App">Repo</a></p>
+      					<p ><a href="https://marvelous-kulfi-b4497c.netlify.app/">Demo</a></p>
+      				</div>
       			</div>
       		</div>
 
-      		<div id="projectDown"><a href="#Contact"><i class="fas fa-chevron-down"></i></a></div>
+      		<div class="down"><a href="#Contact"><i class="fas fa-chevron-down"></i></a></div>
       	</div>
 
       	<div id ="Contact" class="contact" >
@@ -125,7 +131,7 @@
         			</div>
         			<button type="submit" class="button">Submit</button>
     				</form>
-    		</div>
+    			</div>
       	</div>
 
       	<div class="top"><a href="#top"><i class="fas fa-arrow-up"></i></a>Back to top</div>
