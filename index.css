@@ -318,7 +318,7 @@ height:100%;
 
 .content > p{
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -848,7 +848,7 @@ nav a:hover > b, nav > a > .showText{
   }
 
   .content > p{
-    font-size: 14px;
+    font-size: 18px;
   }
   .mysummary{
     display: none;
