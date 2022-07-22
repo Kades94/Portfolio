@@ -282,6 +282,7 @@ section{
 .projectLinks{
   display: flex;
   justify-content: space-between;
+  color: white;
 }
 
 #Projects{
@@ -290,6 +291,8 @@ section{
 }
 
 .content{
+  background-color: #c5aa6a;
+  color: white;
   margin: 5px;
   border: 1px solid lightgray;
 }
@@ -309,18 +312,19 @@ width:100%;
 height:100%;
 }
 
-.box:hover{
+.box > img:hover{
   transform: scale(1.02);
 }
 
 .content > p{
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 
 p > a{
-  color: black;
+  color: white;
   font-size: 16px;
 }
 
@@ -537,6 +541,7 @@ nav a:hover > b, nav > a > .showText{
   }
   .projectLinks{
     font-size: 12px;
+    border: 2px solid lightgray;
   }
   .projectsContainer{
     flex-direction: column;
@@ -843,7 +848,7 @@ nav a:hover > b, nav > a > .showText{
   }
 
   .content > p{
-    font-size: 15px;
+    font-size: 14px;
   }
   .mysummary{
     display: none;
